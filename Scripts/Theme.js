@@ -80,7 +80,7 @@ let superheroes = [
   let render_lists = function(lists){
     let li = "";
     for(index in lists){
-      li += "<li>" + lists[index] + "</li>";
+      li += "<li style='margin: 5px; padding: 10px; background-color: #11111;'>" + lists[index] + "</li>";
     }
     ul.innerHTML = li;
   }
